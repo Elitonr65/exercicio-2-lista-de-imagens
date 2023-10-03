@@ -1,0 +1,47 @@
+html{
+    font-family: 'Public Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    min-width: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-imagens{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+
+
+.lista-imagens .imagem{
+    width: 232px;
+    height: 332px;
+    position: relative;
+}
+
+.lista-imagens .imagem img {
+    width: 100%;
+}
+
+.lista-imagens .imagem .informacoes{
+    position: absolute;
+    color: #ffffff;
+    bottom: 40px;
+    left: 20px;
+}
+
+.lista-imagens .imagem .informacoes .titulo {
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.lista-imagens .imagem .informacoes .subtitulo {
+    font-size: 17px;
+    font-weight: 300;
+}

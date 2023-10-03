@@ -1,0 +1,9 @@
+@media(max-width: 320px){
+    .lista-imagens{
+        max-width: 400px;
+        justify-content: center;
+        margin: 30px;
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+}
